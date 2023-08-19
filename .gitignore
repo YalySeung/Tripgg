@@ -1,21 +1,64 @@
-.gradle
-**/build/
-!src/**/build/
+### Gradle ###
+TripggApp/.gradle
+TripggApp/build/
+TripggApp/gradle
 
-# Ignore Gradle GUI config
-gradle-app.setting
+### IntelliJ IDEA ###
+**/.idea
+*.iws
+*.iml
+*.ipr
+TripggApp/out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
+### Eclipse ###
+.apt_generated
 .classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+
+### React ###
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+TripggReact/tripggreact/node_modules
+TripggReact/tripggreact/.pnp
+TripggReact/tripggreact/.pnp.js
+
+# testing
+TripggReact/tripggreact/coverage
+
+# production
+TripggReact/tripggreact/build
+
+# misc
+TripggReact/tripggreact/.DS_Store
+TripggReact/tripggreact/.env.local
+TripggReact/tripggreact/.env.development.local
+TripggReact/tripggreact/.env.test.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
