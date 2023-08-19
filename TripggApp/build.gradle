@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.shyang'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'com.h2database:h2' // 내장형 데이터베이스인 H2
+    // 기타 Spring Boot 관련 의존성을 추가할 수 있습니다.
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // JUnit 의존성
+    testImplementation 'junit:junit:4.12' // 또는 JUnit 5를 사용하려면 'org.junit.jupiter:junit-jupiter:5.x.x'와 같이 추가
+}
+
+test {
+    useJUnitPlatform()
+}
