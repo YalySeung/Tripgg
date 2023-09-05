@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.4' // Spring Boot 버전
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group 'org.example'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.mariadb.jdbc:mariadb-java-client:3.1.4'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    runtimeOnly 'com.h2database:h2' // 내장형 데이터베이스인 H2
+}
+
+test {
+    useJUnitPlatform()
+}
