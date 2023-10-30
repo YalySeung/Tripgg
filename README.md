@@ -30,7 +30,6 @@
 
 ### DB
 - mariaDB
-- JPA
 
 ---
 
