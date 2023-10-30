@@ -14,7 +14,7 @@
 - JPA
 
 ### FrontEnd
-- React
+- Vue
 
 ### Build Support
 - Gradle
@@ -30,4 +30,3 @@
 
 ### DB
 - mariaDB
-- JPA
