@@ -14,7 +14,7 @@
 - JPA
 
 ### FrontEnd
-- React
+- Vue
 
 ### Build Support
 - Gradle
@@ -32,24 +32,3 @@
 - mariaDB
 
 ---
-
-## 환경 셋팅
-
-### React
-#### 프로젝트 생성
-- node.js 다운로드 및 설치
-- 환경변수 지정
-- 설정 초기화 : 
-```
-npm config set prefix "npm 경로"
-```
-#### 프로젝트 생성
-```
-npx create-react-app "프로젝트명"
-```
-
-#### 프로젝트 실행
-```
-npm start
-```
-
